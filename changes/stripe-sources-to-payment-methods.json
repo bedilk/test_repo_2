@@ -1,0 +1,14 @@
+{
+  "package": "stripe",
+  "old_version": "13.0.0",
+  "new_version": "14.0.0",
+  "old_api": "stripe.sources.create()",
+  "new_api": "stripe.paymentMethods.create()",
+  "description": "The legacy Sources API is replaced by Payment Methods.",
+  "migration_guide": "Replace stripe.sources.create with stripe.paymentMethods.create.",
+  "kind": "method_renamed",
+  "source": "manual",
+  "provider_id": "stripe",
+  "confidence": 1.0,
+  "call_site_hints": ["stripe.sources.create"]
+}
