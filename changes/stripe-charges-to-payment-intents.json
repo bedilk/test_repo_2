@@ -1,0 +1,14 @@
+{
+  "package": "stripe",
+  "old_version": "13.0.0",
+  "new_version": "14.0.0",
+  "old_api": "stripe.charges.create()",
+  "new_api": "stripe.paymentIntents.create()",
+  "description": "The legacy Charges API is replaced by Payment Intents.",
+  "migration_guide": "Replace stripe.charges.create with stripe.paymentIntents.create while preserving amount and currency.",
+  "kind": "method_renamed",
+  "source": "manual",
+  "provider_id": "stripe",
+  "confidence": 1.0,
+  "call_site_hints": ["stripe.charges.create"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "depfix-stripe-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test --test-reporter=tap"
+  },
+  "dependencies": {
+    "stripe": "file:./vendor/stripe-shim"
+  }
+}

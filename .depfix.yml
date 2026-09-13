@@ -1,0 +1,11 @@
+version: 1
+enabled: true
+verify: true
+open_pr: false
+draft_pr: true
+providers:
+  include:
+    - stripe
+paths:
+  include:
+    - src/**
